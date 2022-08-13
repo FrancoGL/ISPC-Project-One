@@ -64,3 +64,7 @@ VALUES
   ("2021-04-29",	4,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 172.29),
   ("2022-03-14",	1,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 947.10),
   ("2022-08-02",	2,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 703.05);
+  
+  #ejercicio numero 4
+  UPDATE perro set fecha_nac = "2021-09-18" where id_perro = 1;
+SELECT * from perro
