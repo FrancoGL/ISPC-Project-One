@@ -61,3 +61,10 @@ VALUES
   ("2022-08-09",	2,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 639.16),
   ("2021-04-29",	4,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 172.29),
   ("2022-03-14",	1,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 947.10);
+ 
+# Eliminando el perro que no se atendio desde hace mucho tiempo 
+SELECT * from historial;
+
+DELETE from historial where id_historial = 1;
+
+SELECT * from historial;
