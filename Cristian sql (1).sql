@@ -30,7 +30,5 @@ insert into Dueno values (45856951, 'Roberto','Gomez',3754629584,'San Jose 289. 
 insert into Perro(Nombre,Fecha_nac,Sexo,DNI_dueno) values ('Pancho','2018-01-02','Masculino',45856951)
 insert into Historial(Fecha, Perro,Descripción,Monto) values ('2022-07-23',1,'Vacunacion',250.50);
 
--- Punto 9
-update Dueno set Dirección = 'Libertad 123' where DNI = 45915658
--- Punto 10
-truncate Historial
+-- Punto 7
+select Monto from Historial where Fecha between '2022-07-01' and '2022-07-31';
