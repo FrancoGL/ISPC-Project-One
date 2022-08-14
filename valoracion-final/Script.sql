@@ -64,3 +64,6 @@ VALUES
   ("2021-04-29",	4,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 172.29),
   ("2022-03-14",	1,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 947.10),
   ("2022-08-02",	2,	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", 703.05);
+
+  # Ejercicio 5
+  SELECT p.nombre FROM perro p LEFT JOIN dueno d ON p.dni_dueno = d.dni WHERE d.nombre LIKE "%Pedro%";
